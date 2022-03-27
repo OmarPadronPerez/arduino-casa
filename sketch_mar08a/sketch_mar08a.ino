@@ -61,7 +61,7 @@ void loop() {
 
 void coneccion(){
   //WiFi.config(staticIP, gateway, subnet, dns, dns)  ;
-  WiFi.config(ip, dns, gateway, subnet);
+  //WiFi.config(ip, dns, gateway, subnet);//checar
   //WiFi.setDNS(dns);
   
   WiFi.begin(ssid,pass);
